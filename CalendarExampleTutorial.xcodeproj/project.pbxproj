@@ -10,6 +10,9 @@
 		2E09862025B054A800319099 /* CalendarHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E09861F25B054A800319099 /* CalendarHelper.swift */; };
 		2E2BC965263EBD7D00E9D585 /* EventEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BC964263EBD7D00E9D585 /* EventEditViewController.swift */; };
 		2E2BC968263EBD9500E9D585 /* EventCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E2BC967263EBD9500E9D585 /* EventCell.swift */; };
+		2E450DE826DE438200EA6132 /* DailyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E450DE726DE438200EA6132 /* DailyCell.swift */; };
+		2E450DEB26DE438E00EA6132 /* DailyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E450DEA26DE438E00EA6132 /* DailyViewController.swift */; };
+		2E450DEE26DE4C9000EA6132 /* CalendarDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E450DED26DE4C9000EA6132 /* CalendarDay.swift */; };
 		2E49EBAB25B02883004453F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49EBAA25B02883004453F8 /* AppDelegate.swift */; };
 		2E49EBAD25B02883004453F8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49EBAC25B02883004453F8 /* SceneDelegate.swift */; };
 		2E49EBAF25B02883004453F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E49EBAE25B02883004453F8 /* ViewController.swift */; };
@@ -25,6 +28,9 @@
 		2E09861F25B054A800319099 /* CalendarHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHelper.swift; sourceTree = "<group>"; };
 		2E2BC964263EBD7D00E9D585 /* EventEditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventEditViewController.swift; sourceTree = "<group>"; };
 		2E2BC967263EBD9500E9D585 /* EventCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventCell.swift; sourceTree = "<group>"; };
+		2E450DE726DE438200EA6132 /* DailyCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyCell.swift; sourceTree = "<group>"; };
+		2E450DEA26DE438E00EA6132 /* DailyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyViewController.swift; sourceTree = "<group>"; };
+		2E450DED26DE4C9000EA6132 /* CalendarDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDay.swift; sourceTree = "<group>"; };
 		2E49EBA725B02883004453F8 /* CalendarExampleTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CalendarExampleTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E49EBAA25B02883004453F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2E49EBAC25B02883004453F8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,9 +77,12 @@
 				2E49EBAA25B02883004453F8 /* AppDelegate.swift */,
 				2E49EBAC25B02883004453F8 /* SceneDelegate.swift */,
 				2E49EBAE25B02883004453F8 /* ViewController.swift */,
+				2E450DED26DE4C9000EA6132 /* CalendarDay.swift */,
 				2EC8BA89263EA7F4005E621A /* WeeklyViewController.swift */,
 				2E09861F25B054A800319099 /* CalendarHelper.swift */,
 				2E49EBB025B02883004453F8 /* Main.storyboard */,
+				2E450DE726DE438200EA6132 /* DailyCell.swift */,
+				2E450DEA26DE438E00EA6132 /* DailyViewController.swift */,
 				2E2BC964263EBD7D00E9D585 /* EventEditViewController.swift */,
 				2E2BC967263EBD9500E9D585 /* EventCell.swift */,
 				2E49EBC325B049F9004453F8 /* CalendarCell.swift */,
@@ -156,11 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E09862025B054A800319099 /* CalendarHelper.swift in Sources */,
+				2E450DE826DE438200EA6132 /* DailyCell.swift in Sources */,
+				2E450DEB26DE438E00EA6132 /* DailyViewController.swift in Sources */,
 				2E8C4AF2263EBECF007F3653 /* Event.swift in Sources */,
 				2E2BC965263EBD7D00E9D585 /* EventEditViewController.swift in Sources */,
 				2E49EBAF25B02883004453F8 /* ViewController.swift in Sources */,
 				2E49EBAB25B02883004453F8 /* AppDelegate.swift in Sources */,
 				2E2BC968263EBD9500E9D585 /* EventCell.swift in Sources */,
+				2E450DEE26DE4C9000EA6132 /* CalendarDay.swift in Sources */,
 				2EC8BA8A263EA7F4005E621A /* WeeklyViewController.swift in Sources */,
 				2E49EBAD25B02883004453F8 /* SceneDelegate.swift in Sources */,
 				2E49EBC425B049F9004453F8 /* CalendarCell.swift in Sources */,
